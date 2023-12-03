@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./bg.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    padding: 10px;
+    padding-top: 10px;
+}
+.item{
+    width: 340px;
+    height: 370px;
+   background-color: #45d756;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+  
+  padding: 10px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form{
+    width: 100%;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    font-size:x-large;
+    border-radius: 10px;;
+}
+.buttons{
+    width: 95%;
+    height:85% ;
+    margin: 5px;
+    
+    padding-left: 15px;
+}
+.buttons table{
+    width: 100%;
+}
+.buttons table,tr{
+    width: 100%;
+}
+.buttons table tr {
+    margin: 10px;
+}
+.buttons table tr td{
+    margin: 20px;
+    padding: 4px 3px;
+}
+.buttons table tr td input{
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+
+}
+.buttons table tr td .eq{
+    height: 100px;
+    border-radius: 40px;
+}
+.buttons table tr td input:hover{
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(249, 62, 243);
+    border: 2px solid #fff;
+}
+.buttons table tr td .ops:hover,#ac:hover,#c:hover{
+    background-color: blue;
+    color: #fff;
+   
+}
+.buttons table tr td .eq:hover{
+    background-color: blue;
+    color: #fff;
+
+}
+#ac{
+    background-color: red;
+    color: #fff;
+}
+#c{
+    background-color: orange;
+    color: black;
+}
+.head{
+    width: 100%;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 2opx;
+}
+.head h1{
+    border-bottom: 3px solid rgb(91, 7, 144);
+    width: fit-content;
+    text-align: center;
+    color:rgb(91, 7, 144); ;
+}
